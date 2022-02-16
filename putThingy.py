@@ -1,5 +1,6 @@
 #boomer conchu
 #HentaiSenpai
+#This code manipulates a test field on the ThingSpeak cloud linked to a Moisture sensor and NPK sensor being used for our Automated Agricultre robot for my team's senior design project.
 
 import urllib
 import urllib.request #this needs to be imported so we can use the urlopen
