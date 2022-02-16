@@ -3,6 +3,10 @@
 
 #URL: https://api.thingspeak.com/channels/1651362/feeds.json?results=2 <- this is the Get Data Feed API
 #We should consider just using the Field API, but this code is written in a way that will allow us to seek the data from the DataFeed API
+#this code pulls data from the ThingSpeak cloud which was uploaded by a moisture sensor and NPK sensor
+#after pulling the data from ThingSpeak, data is made searchable then assigned a variable
+#if variable exists, then an script to turn on the pumps will execute, followed by the code that controls the servo pan and tilt system
+
 
 import urllib
 import urllib.request
@@ -77,14 +81,6 @@ if show6:
 			exec(open("ts2.py").read()) #run servo code
 
 
-#start arguments to start pumps
-#method 1: import servos.py then call the functions within this code since it has been imported
-#if showX =< X:
-	#servo.panTilt()
-
-#method 2: using exec() funciton
-#if showX =< X:
-	#exec(open("servo.py).read())
 
 
 
