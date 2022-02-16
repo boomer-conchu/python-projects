@@ -1,5 +1,5 @@
 #Boomer Conchu
-#HentaiSenpai
+#yabaiSenpai
 
 #URL: https://api.thingspeak.com/channels/1651362/feeds.json?results=2 <- this is the Get Data Feed API
 #We should consider just using the Field API, but this code is written in a way that will allow us to seek the data from the DataFeed API
