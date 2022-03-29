@@ -23,3 +23,4 @@ if newMoist <= 1000: #compares newMoist to set theshhold
 else:
     print("Plant does not need water.") #if at or greater than threshold, code does not need to run
     #exec(open("master/servo code.py").read()))#<-----insert new code here
+
